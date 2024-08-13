@@ -5,6 +5,7 @@ import 'package:bus_hub/src/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+
 void main() {
   runApp( const MyApp());
 }
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         title: "BusHub",
         theme: TAppTheme.LightTheme,
         darkTheme: TAppTheme.DarkTheme,
-        themeMode: ThemeMode.system,
+        themeMode:  ThemeMode.system,
         home:  SplashScreen(),
       ),
     );

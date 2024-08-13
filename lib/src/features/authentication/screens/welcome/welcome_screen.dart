@@ -7,7 +7,7 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
 import '../driver_screens/driver_login_signin.dart';
-import '../passenger_screens/login_or_signin.dart';
+import '../passenger_screens/passenger_login_or_signin.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});

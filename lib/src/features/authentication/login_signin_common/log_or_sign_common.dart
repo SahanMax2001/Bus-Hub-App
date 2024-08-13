@@ -9,6 +9,7 @@ class LogOrSign extends StatelessWidget {
   const LogOrSign({
     required this.tittle1,
     required this.tittle2,
+    required this.tittle3,
     required this.userImagePath,
     required this.onTap1,
     required this.onTap2,
@@ -17,7 +18,7 @@ class LogOrSign extends StatelessWidget {
   });
   final String userImagePath;
 final VoidCallback onTap1,onTap2;
-final String tittle1,tittle2;
+final String tittle1,tittle2,tittle3;
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +27,7 @@ final String tittle1,tittle2;
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          Text("Hello Passenger",style: TextStyle(color:tPrimaryColor,fontWeight:FontWeight.w700,fontSize:24),),
+          Text(tittle3,style: TextStyle(color:tPrimaryColor,fontWeight:FontWeight.w700,fontSize:24),),
 
            Image(image :AssetImage(userImagePath),
               height:300, // Set the desired height

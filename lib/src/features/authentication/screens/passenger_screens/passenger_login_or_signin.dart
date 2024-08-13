@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
-import '../../forget_password/log_or_sign_common.dart';
+import '../../login_signin_common/log_or_sign_common.dart';
 
 class PassengerSelect extends StatelessWidget {
   const PassengerSelect({super.key});
@@ -21,6 +21,7 @@ class PassengerSelect extends StatelessWidget {
       body: LogOrSign(
         tittle1:"SIGNIN",
         tittle2: "LOGIN",
+        tittle3: "Hello Passenger",
         userImagePath: PassengerImage,
         onTap1: (){ Get.to(()=>const PassengerSingInScreen());},
         onTap2: (){ Get.to(()=>const PassengerLogInScreen());},
