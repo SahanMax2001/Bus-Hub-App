@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "bus_hub_app",
     "short_name": "bus_hub_app",
+=======
+    "name": "bus_hub",
+    "short_name": "bus_hub",
+>>>>>>> origin/master
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

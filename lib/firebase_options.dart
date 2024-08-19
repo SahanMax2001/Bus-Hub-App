@@ -50,6 +50,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
+<<<<<<< HEAD
     apiKey: 'AIzaSyCKHdvVz34u-GQBl4ZAhdwEHL_cZEKhUFg',
     appId: '1:614826890557:android:26e1222ec208c316b3a154',
     messagingSenderId: '614826890557',
@@ -64,5 +65,21 @@ class DefaultFirebaseOptions {
     projectId: 'bus-hub-application',
     storageBucket: 'bus-hub-application.appspot.com',
     iosBundleId: 'com.example.busHubApp',
+=======
+    apiKey: 'AIzaSyDc2Rpj43FDH8zSevL5FAYxY9c8qNVhqb0',
+    appId: '1:990537935159:android:4ce7500c08d246ce6852b2',
+    messagingSenderId: '990537935159',
+    projectId: 'bus-hub-app-a029d',
+    storageBucket: 'bus-hub-app-a029d.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyCa9k0gdiK2NuG31FRHyRSAhgYxOIk8oVc',
+    appId: '1:990537935159:ios:1e53f1b9db6791466852b2',
+    messagingSenderId: '990537935159',
+    projectId: 'bus-hub-app-a029d',
+    storageBucket: 'bus-hub-app-a029d.appspot.com',
+    iosBundleId: 'com.example.busHub',
+>>>>>>> origin/master
   );
 }

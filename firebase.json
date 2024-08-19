@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"flutter":{"platforms":{"android":{"default":{"projectId":"bus-hub-application","appId":"1:614826890557:android:26e1222ec208c316b3a154","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"bus-hub-application","configurations":{"android":"1:614826890557:android:26e1222ec208c316b3a154","ios":"1:614826890557:ios:283b8dffcb4799f1b3a154"}}}}}}
+=======
+{"flutter":{"platforms":{"android":{"default":{"projectId":"bus-hub-app-a029d","appId":"1:990537935159:android:4ce7500c08d246ce6852b2","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"bus-hub-app-a029d","configurations":{"android":"1:990537935159:android:4ce7500c08d246ce6852b2","ios":"1:990537935159:ios:1e53f1b9db6791466852b2"}}}}}}
+>>>>>>> origin/master

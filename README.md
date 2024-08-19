@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # bus_hub_app
+=======
+# bus_hub
+>>>>>>> origin/master
 
 A new Flutter project.
 
