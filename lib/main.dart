@@ -1,9 +1,13 @@
 import 'package:bus_hub_app/Role_Selection_Screen/selection_screen.dart';
+import 'package:bus_hub_app/firebase_options.dart';
 import 'package:bus_hub_app/on_boarding_screen/on_boarding_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp( const MyApp());
 }
 

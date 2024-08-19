@@ -6,8 +6,8 @@ class Bus_Registration_form extends StatelessWidget {
 
   const Bus_Registration_form({
     super.key,
-    required this.size});
-  final Size size;
+    });
+
   @override
   Widget build(BuildContext context) {
 
